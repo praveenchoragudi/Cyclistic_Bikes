@@ -18,13 +18,10 @@ Install required packages
 
 ### Preparing quarterly data by merging multiple csv files 
 
-#### preparing file for Q4 of 2021
-
-#### preparing file for Q1 of 2022
-
-#### preparing file for Q2 of 2022
-
-#### preparing file for Q3 of 2022
+* preparing file for Q4 of 2021
+* preparing file for Q1 of 2022
+* preparing file for Q2 of 2022
+* preparing file for Q3 of 2022
 
 ## STEP 1: COLLECT DATA
 
@@ -32,29 +29,19 @@ Install required packages
 
 ## STEP 2: WRANGLING DATA AND COMBINING INTO A SINGLE FILE
 
-#### Comparing column names each of the files. While the names don't have to be in the same order, they DO need to match perfectly before we can use a command to join them into one file.
-
-#### Inspecting the dataframes and looking for incongruencies
-
-#### Stacking individual quarter's data frames into one big data frame
-
-#### Removing lat, long, and gender fields as this data was dropped beginning in 2020
+* Comparing column names each of the files. While the names don't have to be in the same order, they DO need to match perfectly before we can use a command to join them into one file.
+* Inspecting the dataframes and looking for incongruencies
+* Stacking individual quarter's data frames into one big data frame
+* Removing lat, long, and gender fields as this data was dropped beginning in 2020
 
 ## STEP 3: CLEAN UP AND ADD DATA TO PREPARE FOR ANALYSIS
 
-### Inspecting the new table that has been created
-
-##### Adding columns that list the date, month, day, and year of each ride which allows us to aggregate ride data for each month, day, or year before completing these operations we could only aggregate at the ride level more on date formats in R found at that [link](https://www.statmethods.net/input/dates.html).
-
-#### Adding a "ride_length" [calculation](https://stat.ethz.ch/R-manual/R-devel/library/base/html/difftime.html) to all_trips (in seconds) 
-
-
-### Inspecting the structure of the columns
-
-### Converting "ride_length" from Factor to numeric so we can run calculations on the data
-
-
-#### Removing "bad" data. The [dataframe](https://www.datasciencemadesimple.com/delete-or-drop-rows-in-r-with-conditions-2/) includes a few hundred entries when bikes were taken out of docks and checked for quality by Cyclistic or ride_length was negative. We will create a new version of the dataframe (v2) since data is being removed.
+* Inspecting the new table that has been created
+* Adding columns that list the date, month, day, and year of each ride which allows us to aggregate ride data for each month, day, or year before completing these operations we could only aggregate at the ride level more on date formats in R found at that [link](https://www.statmethods.net/input/dates.html).
+* Adding a "ride_length" [calculation](https://stat.ethz.ch/R-manual/R-devel/library/base/html/difftime.html) to all_trips (in seconds) 
+* Inspecting the structure of the columns
+* Converting "ride_length" from Factor to numeric so we can run calculations on the data
+* Removing "bad" data. The [dataframe](https://www.datasciencemadesimple.com/delete-or-drop-rows-in-r-with-conditions-2/) includes a few hundred entries when bikes were taken out of docks and checked for quality by Cyclistic or ride_length was negative. We will create a new version of the dataframe (v2) since data is being removed.
 
 
 ## STEP 4: CONDUCT DESCRIPTIVE ANALYSIS
