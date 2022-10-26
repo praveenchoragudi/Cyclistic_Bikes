@@ -59,24 +59,13 @@ Install required packages
 
 ## STEP 4: CONDUCT DESCRIPTIVE ANALYSIS
 
-### Descriptive analysis on ride_length (all figures in seconds)
-
-
-#### We can condense the four lines above to one line using summary() on the specific attribute
-
-
-#### Comparing members and casual users
-
-
-#### We can see the average ride time by each day for members vs casual users
-
-
-#### Notice that the days of the week are out of order. Let's fix that.
-
-
-#### Now, let's run the average ride time by each day for members vs casual users
-
-#### Analyzing ridership data by type and weekday
+* Descriptive analysis on ride_length (all figures in seconds)
+* We can condense the four lines above to one line using summary() on the specific attribute
+* Comparing members and casual users
+* We can see the average ride time by each day for members vs casual users
+* Notice that the days of the week are out of order. Let's fix that.
+* Now, let's run the average ride time by each day for members vs casual users
+* Analyzing ridership data by type and weekday
 
 
 ## STEP 5: EXPORT SUMMARY FILE FOR FURTHER ANALYSIS
