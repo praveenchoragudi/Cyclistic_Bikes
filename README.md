@@ -16,15 +16,14 @@ Install required packages
 * lubridate for date functions
 * ggplot for visualization
 
-### Preparing quarterly data by merging multiple csv files 
+## STEP 1: COLLECT DATA
+
+#### Preparing quarterly data by merging multiple csv files 
 
 * preparing file for Q4 of 2021
 * preparing file for Q1 of 2022
 * preparing file for Q2 of 2022
 * preparing file for Q3 of 2022
-
-## STEP 1: COLLECT DATA
-
 
 
 ## STEP 2: WRANGLING DATA AND COMBINING INTO A SINGLE FILE
