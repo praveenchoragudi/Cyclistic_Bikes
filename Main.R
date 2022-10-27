@@ -212,3 +212,5 @@ colnames(chart1)<-c("Count","User_Type","Day_of_the_Week","Trip_Duration_in_Seco
 colnames(chart1)
 library(ggplot2)
 ggplot(data=chart1)+geom_point(mapping = aes(x=Day_of_the_Week,y=Trip_Duration_in_Seconds, color=User_Type,shape=User_Type))+labs(title ="Usage by Members and Casual riders" ,subtitle ="Frequency of trip time between User Types",caption = "Data is from Q4(2021) and Q1-Q4(2022)")
+
+
