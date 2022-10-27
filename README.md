@@ -16,7 +16,7 @@ Install required packages
 * lubridate for date functions
 * ggplot for visualization
 
-## STEP 1: COLLECT DATA
+## STEP 1: COLLECTING DATA
 
 #### Preparing quarterly data by merging multiple csv files 
 
@@ -33,7 +33,7 @@ Install required packages
 * Stacking individual quarter's data frames into one big data frame
 * Removing lat, long, and gender fields as this data was dropped beginning in 2020
 
-## STEP 3: CLEAN UP AND ADD DATA TO PREPARE FOR ANALYSIS
+## STEP 3: CLEANING UP AND ADDING DATA TO PREPARE FOR ANALYSIS
 
 * Inspecting the new table that has been created
 * Adding columns that list the date, month, day, and year of each ride which allows us to aggregate ride data for each month, day, or year before completing these operations we could only aggregate at the ride level more on date formats in R found at that [link](https://www.statmethods.net/input/dates.html).
@@ -43,7 +43,7 @@ Install required packages
 * Removing "bad" data. The [dataframe](https://www.datasciencemadesimple.com/delete-or-drop-rows-in-r-with-conditions-2/) includes a few hundred entries when bikes were taken out of docks and checked for quality by Cyclistic or ride_length was negative. We will create a new version of the dataframe (v2) since data is being removed.
 
 
-## STEP 4: CONDUCT DESCRIPTIVE ANALYSIS
+## STEP 4: CONDUCTING DESCRIPTIVE ANALYSIS
 
 * Descriptive analysis on ride_length (all figures in seconds)
 * We can condense the four lines above to one line using summary() on the specific attribute
@@ -54,7 +54,7 @@ Install required packages
 * Analyzing ridership data by type and weekday
 
 
-## STEP 5: EXPORT SUMMARY FILE FOR FURTHER ANALYSIS
+## STEP 5: EXPORTING SUMMARY FILE FOR FURTHER ANALYSIS
 
 
 ###### THANK YOU 
